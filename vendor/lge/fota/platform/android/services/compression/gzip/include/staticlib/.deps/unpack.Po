@@ -1,0 +1,94 @@
+unpack.o: unpack.c lib/config.h tailor.h gzip.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/stdio.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/sys/cdefs.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/sys/cdefs_elf.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/android/api-level.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/sys/types.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/aarch64-linux-android-4.9/bin/../lib/gcc/aarch64-linux-android/4.9/include/stddef.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/stdint.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/machine/wchar_limits.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/linux/types.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-arm64/asm/types.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-generic/types.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-generic/int-ll64.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-arm64/asm/bitsperlong.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-generic/bitsperlong.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/linux/posix_types.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/linux/stddef.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/linux/compiler.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-arm64/asm/posix_types.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-generic/posix_types.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/sys/sysmacros.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/aarch64-linux-android-4.9/bin/../lib/gcc/aarch64-linux-android/4.9/include/stdarg.h \
+ lib/time.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/time.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/sys/time.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/linux/time.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/xlocale.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/string.h \
+ /home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/malloc.h \
+ crypt.h
+
+lib/config.h:
+
+tailor.h:
+
+gzip.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/stdio.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/sys/cdefs.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/sys/cdefs_elf.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/android/api-level.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/sys/types.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/aarch64-linux-android-4.9/bin/../lib/gcc/aarch64-linux-android/4.9/include/stddef.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/stdint.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/machine/wchar_limits.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/linux/types.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-arm64/asm/types.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-generic/types.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-generic/int-ll64.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-arm64/asm/bitsperlong.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-generic/bitsperlong.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/linux/posix_types.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/linux/stddef.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/linux/compiler.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-arm64/asm/posix_types.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/asm-generic/posix_types.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/sys/sysmacros.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/aarch64-linux-android-4.9/bin/../lib/gcc/aarch64-linux-android/4.9/include/stdarg.h:
+
+lib/time.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/time.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/sys/time.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/kernel/uapi/linux/time.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/xlocale.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/string.h:
+
+/home2/xeros.kim/tool-chain/tool-chain-4.9_64/bionic/libc/include/malloc.h:
+
+crypt.h:
